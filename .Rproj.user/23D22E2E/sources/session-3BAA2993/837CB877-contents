@@ -1,4 +1,3 @@
-#hi 
 APH_Random_pred <- function() {
 library(pROC)
 library(ROCR)
