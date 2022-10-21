@@ -1,0 +1,27 @@
+{
+    "id": "BE9CF8CD",
+    "path": "C:/R_scripts_feng/tp/create_signal_APH_shuffled.R",
+    "project_path": "create_signal_APH_shuffled.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1646412455906.0,
+    "source_on_save": false,
+    "relative_order": 11,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "141,134",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1646413244,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1646413244776,
+    "read_only": false,
+    "read_only_alternatives": []
+}

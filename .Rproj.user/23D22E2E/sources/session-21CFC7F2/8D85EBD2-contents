@@ -1,0 +1,40 @@
+setwd("C:/R_scripts_feng/tp")
+inputNumber <- function(prompt) {
+  
+  
+  while(TRUE) {
+    num = suppressWarnings(as.numeric(readline(prompt)))
+    if(!is.na(num)) {
+      break
+    }
+  }
+  choice <- num
+  return(choice)
+}
+
+displayMenu <- function(options) {
+  
+  for(i in 1:length(options)) {
+    cat(sprintf("%d. %s\n", i, options[i]))
+  }
+  
+  choice <- 0 
+  
+  choice <- inputNumber("Please choose a prediction ")
+  
+  return(choice)
+}
+
+menuItems <- c("APH_NT", "DMSO_APH", "DMSO_NT", "APH_Random", "DMSO_Random", "NT_Random")
+
+choice <- displayMenu(menuItems)
+  
+if(choice ==1) {
+  print("You selected APH vs. NT")
+  source("DSB_prediction_APH_NT.R")
+  APH_NT_pred()
+  
+  openPDF(normalizePath("C:/R_scripts_feng/tp/Results/APH_NT/APH_NTplots.pdf"))
+}else{
+  print("bye")
+}

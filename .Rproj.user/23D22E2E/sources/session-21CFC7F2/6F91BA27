@@ -1,0 +1,26 @@
+{
+    "id": "6F91BA27",
+    "path": "C:/R_scripts_feng/tp/create_nonDMSO_DMSO_features.R",
+    "project_path": "create_nonDMSO_DMSO_features.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1646308524268.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "85,52",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1645981448,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1645981448,
+    "read_only": false,
+    "read_only_alternatives": []
+}
