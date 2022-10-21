@@ -1,6 +1,3 @@
-setwd("C:/R_scripts_Feng/PredDSB-master/")
-
-
 DMSO_APH_pred <- function(){
 library(pROC)
 library(ROCR)
