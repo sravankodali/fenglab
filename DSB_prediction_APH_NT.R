@@ -1,5 +1,3 @@
-setwd("C:/R_scripts_Feng/PredDSB-master/")
-
 APH_NT_pred <- function() { 
 library(pROC)
 library(ROCR)
@@ -12,13 +10,13 @@ library(DMwR)
 library(PRROC)
 library(gridExtra)
 
-pdf(file="C:/R_scripts_feng/tp/Results/APH_NT/APH_NTplots.pdf", 
+pdf(file="Results/APH_NT/APH_NTplots.pdf", 
     width = 10, 
     height = 7)
 
 #Computed ChIP-seq Signals of Genomic Features using BigWigAverageOverBed
 
-computed_signals_file = "C:/R_scripts_feng/tp/Data/breaks_APH_NT/NM_AN_features_includingdist.txt"
+computed_signals_file = "Data/breaks_APH_NT/NM_AN_features_includingdist.txt"
 
 dataDSB = subset(as.data.frame(read.table(computed_signals_file)))
 
