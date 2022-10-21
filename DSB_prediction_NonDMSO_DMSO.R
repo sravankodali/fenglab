@@ -11,14 +11,14 @@ library(ggplot2)
 library(dplyr)
 library(gridExtra)
 
-pdf(file="C:/R_scripts_feng/tp/Results/nonDMSO_DMSO/DMSOplots.pdf", 
+pdf(file="Results/nonDMSO_DMSO/DMSOplots.pdf", 
     width = 10, 
     height = 7)
 
 #Computed ChIP-seq Signals of Genomic Features using BigWigAverageOverBed
 
 #computed_signals_file = "C:/R_scripts_feng/tp/Data/signalANDdistance_DMSO_shuffled.txt"
-computed_signals_file = "C:/R_scripts_feng/tp/Data/signalANDdistance_DMSO_TrueAndShuffled_SumDistOnly.txt"
+computed_signals_file = "Data/signalANDdistance_DMSO_TrueAndShuffled_SumDistOnly.txt"
 
 dataDSB = as.data.frame(read.csv(computed_signals_file,sep="\t", header=1))
 dataDSB = dataDSB[,-c(1:3)]

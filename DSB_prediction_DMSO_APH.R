@@ -11,13 +11,13 @@ library(caret)
 library(plyr)
 library(PRROC)
 
-pdf(file="C:/R_scripts_feng/tp/Results/DMSO_APH/DMSO_APHplots.pdf", 
+pdf(file="Results/DMSO_APH/DMSO_APHplots.pdf", 
     width = 10, 
     height = 7)
 
 #Computed ChIP-seq Signals of Genomic Features using BigWigAverageOverBed
 
-computed_signals_file = "C:/R_scripts_feng/tp/Data/breaks_DMSO_APH/NM_DA_features_includingdist.txt"
+computed_signals_file = "Data/breaks_DMSO_APH/NM_DA_features_includingdist.txt"
 
 dataDSB = subset(as.data.frame(read.table(computed_signals_file)), select = -c(4,6,8,10,12,14))
 dataDSB = dataDSB[-c(1),] # remove the header

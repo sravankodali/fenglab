@@ -12,12 +12,12 @@ library(ggplot2)
 library(dplyr)
 library(gridExtra)
 
-pdf(file="C:/R_scripts_feng/tp/Results/nonNT_NT/NTplots.pdf", 
+pdf(file="Results/nonNT_NT/NTplots.pdf", 
     width = 10, 
     height = 7)
 
 #Computed ChIP-seq Signals of Genomic Features using BigWigAverageOverBed
-computed_signals_file = "C:/R_scripts_feng/tp/Data/signalANDdistance_NT_TrueAndShuffled_SumDistOnly.txt"
+computed_signals_file = "Data/signalANDdistance_NT_TrueAndShuffled_SumDistOnly.txt"
 
 dataDSB = as.data.frame(read.csv(computed_signals_file,sep="\t", header=1))
 

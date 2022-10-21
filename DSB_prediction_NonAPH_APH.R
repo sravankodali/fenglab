@@ -11,13 +11,13 @@ library(ggplot2)
 library(dplyr)
 library(gridExtra)
 
-pdf(file="C:/R_scripts_feng/tp/Results/nonAPH_APH/APHplots.pdf", 
+pdf(file="Results/nonAPH_APH/APHplots.pdf", 
     width = 10, 
     height = 7)
 
 #Computed ChIP-seq Signals of Genomic Features using BigWigAverageOverBed
 #computed_signals_file = "C:/R_scripts_feng/tp/Data/signalANDdistance_APH_shuffled.txt"
-computed_signals_file = "C:/R_scripts_feng/tp/Data/signalANDdistance_APH_TrueAndShuffled_SumDistOnly.txt"
+computed_signals_file = "Data/signalANDdistance_APH_TrueAndShuffled_SumDistOnly.txt"
 
 dataDSB = as.data.frame(read.csv(computed_signals_file,sep="\t", header=1))
 

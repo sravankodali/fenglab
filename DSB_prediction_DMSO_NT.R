@@ -12,13 +12,13 @@ library(plyr)
 library(PRROC)
 
 
-pdf(file="C:/R_scripts_feng/tp/Results/DMSO_NT/DMSO_NTplots.pdf", 
+pdf(file="Results/DMSO_NT/DMSO_NTplots.pdf", 
     width = 10, 
     height = 7)
 
 #Computed ChIP-seq Signals of Genomic Features using BigWigAverageOverBed
 
-computed_signals_file = "C:/R_scripts_feng/tp/Data/breaks_DMSO_NT/NM_DN_features_includingdist.txt"
+computed_signals_file = "Data/breaks_DMSO_NT/NM_DN_features_includingdist.txt"
 
 dataDSB = as.data.frame(read.table(computed_signals_file))
 dataDSB = subset(dataDSB, select=-c(4,6,8,10,12,14))
