@@ -9,7 +9,6 @@ library(randomForest)
 library(Matrix)
 library(caret)
 library(plyr)
-library(DMwR)
 library(PRROC)
 
 pdf(file="C:/R_scripts_feng/tp/Results/DMSO_APH/DMSO_APHplots.pdf", 
