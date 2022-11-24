@@ -1,7 +1,7 @@
 # fenglab
 A code dump for the project I led on the epigenomic nature of Double-Strand Breaks at Common Fragile Sites. This exciting work elucidates the underlying nature of chromosomal fragility and provides a better, working molecular model for the occurence of Common Fragile Sites in the human genome. Our work may lead to a better understanding of the etiological basis of multiple neurological disorders & cancers. Part of my research at the SUNY Upstate Feng Lab. This repository includes portions of the data preprocessing, feature analysis, and random forest prediction tools. See below.
 
-Other research figures pending publication in _Frontiers in Genetics_ [See Epigenomic Signatures Associated With Spontaneous and Replication Stress-Induced DNA Double Strand Breaks]
+Research published as first-author in _Frontiers in Genetics_ : https://doi.org/10.3389/fgene.2022.907547
 
 Feature Distributions on DSB datasets 
 ![feature_distribuitions](https://user-images.githubusercontent.com/79488137/197250022-23cb82b3-8dc1-4f5a-b5b5-6840c1896171.PNG)
